@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Timer/Alarm</title>
+  <link rel="stylesheet" href="timer .css">
+</head>
+<body>
+  <div class="timer-container">
+    <div class="picker-row">
+      <select id="hours"></select>
+      <span>hours</span>
+      <select id="minutes"></select>
+      <span>min</span>
+      <select id="seconds"></select>
+      <span>sec</span>
+    </div>
+    <div class="buttons-row">
+      <button id="cancel" disabled>Cancel</button>
+      <button id="start">Start</button>
+    </div>
+    <div class="label-row">
+      <span>When Timer Ends</span>
+      <span>Chicken</span>
+    </div>
+  </div>
+  <audio id="chickenSound" src="alarm.mp3.mp3" preload="auto"></audio>
+  <script src="timer.js"></script>
+</body>
+</html>
